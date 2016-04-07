@@ -1,0 +1,16 @@
+<md-sidenav-layout>
+  <md-sidenav #sidenav mode="side" class="app-sidenav">
+    Sidenav<br/>
+    <p>foo</p>
+    <p>bar</p>
+    <p>saz</p>
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button class="app-icon-button" (click)="sidenav.toggle()">
+      <i class="material-icons app-toolbar-menu">menu</i>
+    </button>
+
+    <span class="app-toolbar-filler"></span>
+  </md-toolbar>
+</md-sidenav-layout>
